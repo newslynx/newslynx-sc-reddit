@@ -1,7 +1,7 @@
 name: Reddit Search Content Item Links to Event
 slug: reddit-search-content-item-links-to-event
 description: Extracts linked events from a Reddit API query.
-runs: newslynx.sc.events.reddit.SearchContentItemLinks
+runs: newslynx_sc_reddit.SearchContentItemLinks
 creates: events
 option_order:
     - name
