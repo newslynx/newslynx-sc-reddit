@@ -1,7 +1,7 @@
 name: Reddit Search to Event
 slug: reddit-search-to-event
 description: Extracts events from a Reddit API query.
-runs: newslynx.sc.events.reddit.Search
+runs: newslynx_sc_reddit.Search
 creates: events
 option_order:
     - name

@@ -3,7 +3,7 @@
 newslynx-sc-reddit
 ==========================================================================================
 
-
+This module contains all Sous Chefs which deal with Reddit via `praw`.
 
 ## Installation
 
