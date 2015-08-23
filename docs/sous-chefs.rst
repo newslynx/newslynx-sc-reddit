@@ -3,7 +3,6 @@ Sous Chefs
 -------------
 **newslynx-sc-reddit** provides access to the following Sous Chefs
 
-RUNS newslynx_sc_reddit.SearchContentItemLinks
 Reddit Search Content Item Links to Event
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -162,7 +161,6 @@ In addition to default recipe options,
 
 
 
-RUNS newslynx_sc_reddit.Search
 Reddit Search to Event
 ~~~~~~~~~~~~~~~~~~~~~~
 
