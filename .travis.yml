@@ -8,9 +8,4 @@ install:
 script:
     - mkdir ~/.newslynx/
     - wget https://raw.githubusercontent.com/newslynx/newslynx-core/master/newslynx/dot_newslynx/config.yaml -O ~/.newslynx/config.yaml
-    - cat ~/.newslynx/config.yaml
     - nosetests
-
-
-# command to run tests
-# script: nosetests
