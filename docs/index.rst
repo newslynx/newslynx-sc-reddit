@@ -154,7 +154,7 @@ What's in this module ?
 
 .. |Build status| image:: https://travis-ci.org/newslynx/newslynx-sc-reddit.svg
    :target: https://travis-ci.org/newslynx/newslynx-sc-reddit
-.. |Documentation Status| image:: https://readthedocs.org/projects/newslynx-sc-reddit/badge/?version=latest
+.. |Documentation Status| image:: https://readthedocs.org/projects/newslynx-sc-reddit/badge/?badge=latest
    :target: https://readthedocs.org/projects/newslynx-sc-reddit/?badge=latest
 
 Contents

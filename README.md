@@ -1,4 +1,5 @@
-[![Build status](https://travis-ci.org/newslynx/newslynx-sc-reddit.svg)](https://travis-ci.org/newslynx/newslynx-sc-reddit) [![Documentation Status](https://readthedocs.org/projects/newslynx-sc-reddit/badge/?version=latest)](https://readthedocs.org/projects/newslynx-sc-reddit/?badge=latest)
+[![Build status](https://travis-ci.org/newslynx/newslynx-sc-reddit.svg)](https://travis-ci.org/newslynx/newslynx-sc-reddit) [![Documentation Status](https://readthedocs.org/projects/newslynx-sc-reddit/badge/?badge=latest)](https://readthedocs.org/projects/newslynx-sc-reddit/?badge=latest)
+                
 
 newslynx-sc-reddit
 ==========================================================================================
