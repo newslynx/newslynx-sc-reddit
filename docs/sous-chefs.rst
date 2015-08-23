@@ -11,23 +11,6 @@ Reddit Search Content Item Links to Event
    ``newslynx_sc_reddit.SearchContentItemLinks``.
 -  API Slug: ``reddit-search-content-item-links-to-event``
 
-Development
-^^^^^^^^^^^
-
-Pass runtime options to ``reddit-search-content-item-links-to-event``
-and stream output. **NOTE** Will not execute the SousChef's ``load``
-method.
-
-.. code:: bash
-
-    $ newslynx sc newslynx_sc_reddit/reddit_search_content_item_links_to_event.yaml option=value1
-
-Alternatively pass in a recipe file
-
-.. code:: bash
-
-    $ newslynx sc newslynx_sc_reddit/reddit_search_content_item_links_to_event.yaml --recipe=recipe.yaml
-
 API Usage
 ^^^^^^^^^
 
@@ -63,6 +46,23 @@ method.
 .. code:: bash
 
     $ newslynx api recipes cook id=<id> --passthrough **options
+
+Development
+^^^^^^^^^^^
+
+Pass runtime options to ``reddit-search-content-item-links-to-event``
+and stream output. **NOTE** Will not execute the SousChef's ``load``
+method.
+
+.. code:: bash
+
+    $ newslynx sc newslynx_sc_reddit/reddit_search_content_item_links_to_event.yaml option=value1
+
+Alternatively pass in a recipe file
+
+.. code:: bash
+
+    $ newslynx sc newslynx_sc_reddit/reddit_search_content_item_links_to_event.yaml --recipe=recipe.yaml
 
 Options
 ^^^^^^^
@@ -168,22 +168,6 @@ Reddit Search to Event
 -  This Sous Chef runs the python module ``newslynx_sc_reddit.Search``.
 -  API Slug: ``reddit-search-to-event``
 
-Development
-^^^^^^^^^^^
-
-Pass runtime options to ``reddit-search-to-event`` and stream output.
-**NOTE** Will not execute the SousChef's ``load`` method.
-
-.. code:: bash
-
-    $ newslynx sc newslynx_sc_reddit/reddit_search_to_event.yaml option=value1
-
-Alternatively pass in a recipe file
-
-.. code:: bash
-
-    $ newslynx sc newslynx_sc_reddit/reddit_search_to_event.yaml --recipe=recipe.yaml
-
 API Usage
 ^^^^^^^^^
 
@@ -219,6 +203,22 @@ method.
 .. code:: bash
 
     $ newslynx api recipes cook id=<id> --passthrough **options
+
+Development
+^^^^^^^^^^^
+
+Pass runtime options to ``reddit-search-to-event`` and stream output.
+**NOTE** Will not execute the SousChef's ``load`` method.
+
+.. code:: bash
+
+    $ newslynx sc newslynx_sc_reddit/reddit_search_to_event.yaml option=value1
+
+Alternatively pass in a recipe file
+
+.. code:: bash
+
+    $ newslynx sc newslynx_sc_reddit/reddit_search_to_event.yaml --recipe=recipe.yaml
 
 Options
 ^^^^^^^
