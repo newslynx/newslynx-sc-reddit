@@ -7,7 +7,7 @@ install:
 
 # command to run tests
 script: |
-	mkdir ~/.newslynx/ && \
-	wget https://github.com/newslynx/newslynx-core/blob/master/newslynx/dot_newslynx/config.yaml \
-		-o ~/.newslynx/config.yaml && \ 
-	nosetests
+    mkdir ~/.newslynx/ && \
+    wget https://github.com/newslynx/newslynx-core/blob/master/newslynx/dot_newslynx/config.yaml \
+        -o ~/.newslynx/config.yaml && \ 
+    nosetests
