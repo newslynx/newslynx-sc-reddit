@@ -7,19 +7,46 @@ newslynx-sc-reddit
 
 ## Installation
 
+### Production
+
+To install `newslynx-sc-reddit` for an active installation of `newslynx-core`, clone it and copy into `~/.newslynx/sous-chefs`
+
 ```bash
-$ mkvirtualenv newslynx-sc-reddit
 $ git clone https://github.com/newslynx/newslynx-sc-reddit.git
-$ cd newslynx-sc-reddit
+$ mv newslynx-sc-reddit/ ~/.newslynx/sous-chefs/
+```
+
+Now install it within the same virtual environment as `newslynx`:
+
+```bash
+$ cd ~/.newslynx/sous-chefs/newslynx-sc-reddit/
 $ pip install .
 ```
+
+... and if you're running `newslynx` as `sudo`
+
+
+```bash
+$ cd ~/.newslynx/sous-chefs/newslynx-sc-reddit/ 
+$ sudo pip install .
+```
+
+Finally, run `newslynx sc-sync` to `newslynx-sc-reddit`'s Sous Chefs for all organizations.
+
+```bash
+$ newslynx sc-sync
+```
+
+### Development 
+
+If you want to run this SousChef on it's own environment, install it in a separate virutal environ 
 
 ## Tests
 
 Requires `nose`
 
 ```bash
-$ nosetests
+$ make all_tests
 ```
 
 ## Documentation
