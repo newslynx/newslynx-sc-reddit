@@ -1,10 +1,9 @@
-[![Build status](https://travis-ci.org/newslynx/newslynx-sc-reddit.svg)](https://travis-ci.org/newslynx/newslynx-sc-reddit) [![Documentation Status](https://readthedocs.org/projects/newslynx-sc-reddit/badge/?badge=latest)](https://readthedocs.org/projects/newslynx-sc-reddit/?badge=latest)
-                
+[![Build status](https://travis-ci.org/newslynx/newslynx-sc-reddit.svg)](https://travis-ci.org/newslynx/newslynx-sc-reddit) [![Documentation Status](https://readthedocs.org/projects/newslynx-sc-reddit/badge/?version=latest)](https://readthedocs.org/projects/newslynx-sc-reddit/?badge=latest)
 
 newslynx-sc-reddit
 ==========================================================================================
 
-This module contains all Sous Chefs which deal with Reddit via `praw`.
+
 
 ## Installation
 
@@ -23,7 +22,7 @@ Requires `nose`
 $ nosetests
 ```
 
-## Documenation
+## Documentation
 
 Documentation for `newslynx-sc-reddit` is hosted on [Read The Docs](http://newslynx-sc-reddit.readthedocs.org/).
 
@@ -31,7 +30,7 @@ It's generated via the following steps
 
 * converts this file (`README.md`) into a ReStructured Text file, saving it to [docs/index.rst](https://github.com/newslynx/newslynx-sc-reddit/blob/master/docs/index.rst)
 * runs `newslynx sc-docs newslynx_sc_reddit -f rst` to generate documentation for all the Sous Chefs in `newslynx-sc-reddit` and saves the output to [docs/sous-chefs.rst](https://github.com/newslynx/newslynx-sc-reddit/blob/master/docs/sous-chefs.rst)
-* Builds Sphinx Documentaiton from these files.
+* Builds Sphinx Documentation from these files.
 
 
 ## Continuous Integration
@@ -59,7 +58,7 @@ See the [contributing guidelines](https://github.com/newslynx/newslynx-sc-reddit
 	* See the docs on this [here](https://docs.python.org/2/distutils/sourcedist.html#specifying-the-files-to-distribute).
 
 - [setup.py](https://github.com/newslynx/newslynx-sc-reddit/blob/master/setup.py)
-	* Specification's for building `newslynx-sc-reddit`'s PyPI dsitribution.
+	* Specification's for building `newslynx-sc-reddit`'s PyPI distribution.
 
 - [.travis.yml](https://github.com/newslynx/newslynx-sc-reddit/blob/master/.travis.yml)
 	* Configurations for Travis Continuous Integration

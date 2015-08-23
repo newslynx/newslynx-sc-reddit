@@ -1,4 +1,3 @@
 nose
 sphinx
 newslynx
-praw==3.2.1

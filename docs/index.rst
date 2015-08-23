@@ -3,8 +3,6 @@
 newslynx-sc-reddit
 ==================
 
-This module contains all Sous Chefs which deal with Reddit via ``praw``.
-
 Installation
 ------------
 
@@ -24,8 +22,8 @@ Requires ``nose``
 
     $ nosetests
 
-Documenation
-------------
+Documentation
+-------------
 
 Documentation for ``newslynx-sc-reddit`` is hosted on `Read The
 Docs <http://newslynx-sc-reddit.readthedocs.org/>`__.
@@ -39,7 +37,7 @@ It's generated via the following steps
    documentation for all the Sous Chefs in ``newslynx-sc-reddit`` and
    saves the output to
    `docs/sous-chefs.rst <https://github.com/newslynx/newslynx-sc-reddit/blob/master/docs/sous-chefs.rst>`__
--  Builds Sphinx Documentaiton from these files.
+-  Builds Sphinx Documentation from these files.
 
 Continuous Integration
 ----------------------
@@ -78,7 +76,7 @@ What's in this module ?
 -  `setup.py <https://github.com/newslynx/newslynx-sc-reddit/blob/master/setup.py>`__
 
    -  Specification's for building ``newslynx-sc-reddit``'s PyPI
-      dsitribution.
+      distribution.
 
 -  `.travis.yml <https://github.com/newslynx/newslynx-sc-reddit/blob/master/.travis.yml>`__
 
@@ -154,7 +152,7 @@ What's in this module ?
 
 .. |Build status| image:: https://travis-ci.org/newslynx/newslynx-sc-reddit.svg
    :target: https://travis-ci.org/newslynx/newslynx-sc-reddit
-.. |Documentation Status| image:: https://readthedocs.org/projects/newslynx-sc-reddit/badge/?badge=latest
+.. |Documentation Status| image:: https://readthedocs.org/projects/newslynx-sc-reddit/badge/?version=latest
    :target: https://readthedocs.org/projects/newslynx-sc-reddit/?badge=latest
 
 Contents
