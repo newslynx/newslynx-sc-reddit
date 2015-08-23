@@ -5,7 +5,7 @@ python:
 install:
     - "echo foo >> /dev/null"
 
-script: sh ./.travis.sh
+script: .travis.sh
 
 # command to run tests
 # script: nosetests
