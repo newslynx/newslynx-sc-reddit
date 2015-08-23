@@ -4,8 +4,8 @@ python:
 # command to install dependencies
 install:
   - "mkdir ~/.newslynx/"
-  - "wget https://raw.githubusercontent.com/newslynx/newslynx-core/master/newslynx/dot_newslynx/config.yaml -o ~/.newslynx/config.yaml"
-  - "pip install --editable ."
+  - "wget https://github.com/newslynx/newslynx-core/blob/feature/modular/newslynx/dot_newslynx/config.yaml -o ~/.newslynx/config.yaml"
+  - "pip install . "
 sudo: true
 # command to run tests
 script: nosetests
