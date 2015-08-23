@@ -22,7 +22,7 @@ method.
 
     $ newslynx sc newslynx_sc_reddit/reddit_search_content_item_links_to_event.yaml option=value1
 
-Alernatively pass in a recipe file
+Alternatively pass in a recipe file
 
 .. code:: bash
 
@@ -43,7 +43,7 @@ Create a Recipe with this Sous Chef with command line options.
 
     $ newslynx api recipes create sous_chef=reddit-search-content-item-links-to-event **options
 
-Alerternatively pass in a recipe file.
+Alternatively pass in a recipe file.
 
 .. code:: bash
 
@@ -56,7 +56,7 @@ Save the outputted ``id`` of this recipe, and execute it via the API.
 
     $ newslynx api recipes cook id=<id>
 
-Alernatively, run the Recipe, passing in arbitrary runtime options, and
+Alternatively, run the Recipe, passing in arbitrary runtime options, and
 stream it's output: **NOTE** Will not execute the SousChef's ``load``
 method.
 
@@ -178,7 +178,7 @@ Pass runtime options to ``reddit-search-to-event`` and stream output.
 
     $ newslynx sc newslynx_sc_reddit/reddit_search_to_event.yaml option=value1
 
-Alernatively pass in a recipe file
+Alternatively pass in a recipe file
 
 .. code:: bash
 
@@ -199,7 +199,7 @@ Create a Recipe with this Sous Chef with command line options.
 
     $ newslynx api recipes create sous_chef=reddit-search-to-event **options
 
-Alerternatively pass in a recipe file.
+Alternatively pass in a recipe file.
 
 .. code:: bash
 
@@ -212,7 +212,7 @@ Save the outputted ``id`` of this recipe, and execute it via the API.
 
     $ newslynx api recipes cook id=<id>
 
-Alernatively, run the Recipe, passing in arbitrary runtime options, and
+Alternatively, run the Recipe, passing in arbitrary runtime options, and
 stream it's output: **NOTE** Will not execute the SousChef's ``load``
 method.
 
