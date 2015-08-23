@@ -5,7 +5,6 @@ python:
 install:
   - "mkdir ~/.newslynx/"
   - "wget https://github.com/newslynx/newslynx-core/blob/feature/modular/newslynx/dot_newslynx/config.yaml -o ~/.newslynx/config.yaml"
-  - "pip install . "
-sudo: true
+  - "cat ~/.newslynx/config.yaml "
 # command to run tests
-script: nosetests
+# script: nosetests
