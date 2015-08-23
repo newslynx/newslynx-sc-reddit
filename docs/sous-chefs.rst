@@ -72,6 +72,9 @@ In addition to default recipe options,
 
 -  ``must_link``
 
+   -  Only create an event if there is a link to an existing content
+      item.
+
    -  **Required**
    -  Should be rendered with a ``checkbox-single`` form.
    -  Choose from:
@@ -85,6 +88,9 @@ In addition to default recipe options,
    -  Defaults to ``False``
 
 -  ``event_status``
+
+   -  Set the status of the resulting events. Choose from pending and
+      approved. Defaults to pending.
 
    -  Should be rendered with a ``select`` form.
    -  Choose from:
@@ -100,6 +106,10 @@ In addition to default recipe options,
 
 -  ``set_event_title``
 
+   -  Set's the title of the resulting events. This can be a python
+      format string which has access to all of an event's top-level
+      keys: IE: "Content from {authors} at {created}."
+
    -  Should be rendered with a ``text`` form.
    -  Accepts inputs of type:
 
@@ -109,6 +119,10 @@ In addition to default recipe options,
 
 -  ``set_event_description``
 
+   -  Set's the description of the output events. This can be a python
+      format string which has access to all of an event's top-level
+      keys: IE: "{title}."
+
    -  Should be rendered with a ``paragraph`` form.
    -  Accepts inputs of type:
 
@@ -117,6 +131,9 @@ In addition to default recipe options,
    -  Defaults to ``None``
 
 -  ``set_event_tag_ids``
+
+   -  A list of Tag IDs or slugs to automatically apply to events
+      created by this recipe.
 
    -  Should be rendered with a ``checkbox`` form.
    -  Choose from:
@@ -129,6 +146,9 @@ In addition to default recipe options,
    -  Defaults to ``[]``
 
 -  ``set_event_content_items``
+
+   -  A list of Content Item IDs and Titles to automatically apply to
+      events created by this Recipe.
 
    -  Should be rendered with a ``search`` form.
    -  Choose from:
@@ -208,6 +228,8 @@ accepts the following
 
 -  ``query``
 
+   -  The query to the Reddit API to return the initial batch of events.
+
    -  **Required**
    -  Should be rendered with a ``text`` form.
    -  Accepts inputs of type:
@@ -218,6 +240,8 @@ accepts the following
       `here <https://www.reddit.com/wiki/search>`__
 
 -  ``sort``
+
+   -  The sort order to return from the Reddit API.
 
    -  **Required**
    -  Should be rendered with a ``select`` form.
@@ -236,6 +260,8 @@ accepts the following
 
 -  ``subreddit``
 
+   -  The name of the subreddit to filter results by.
+
    -  **Required**
    -  Should be rendered with a ``text`` form.
    -  Accepts inputs of type:
@@ -245,6 +271,9 @@ accepts the following
    -  Defaults to ``None``
 
 -  ``must_link``
+
+   -  Only create an event if there is a link to an existing content
+      item.
 
    -  **Required**
    -  Should be rendered with a ``checkbox-single`` form.
@@ -260,6 +289,9 @@ accepts the following
 
 -  ``event_status``
 
+   -  Set the status of the resulting events. Choose from pending and
+      approved. Defaults to pending.
+
    -  Should be rendered with a ``select`` form.
    -  Choose from:
 
@@ -274,6 +306,10 @@ accepts the following
 
 -  ``set_event_title``
 
+   -  Set's the title of the resulting events. This can be a python
+      format string which has access to all of an event's top-level
+      keys: IE: "Content from {authors} at {created}."
+
    -  Should be rendered with a ``text`` form.
    -  Accepts inputs of type:
 
@@ -283,6 +319,10 @@ accepts the following
 
 -  ``set_event_description``
 
+   -  Set's the description of the output events. This can be a python
+      format string which has access to all of an event's top-level
+      keys: IE: "{title}."
+
    -  Should be rendered with a ``paragraph`` form.
    -  Accepts inputs of type:
 
@@ -291,6 +331,9 @@ accepts the following
    -  Defaults to ``None``
 
 -  ``set_event_tag_ids``
+
+   -  A list of Tag IDs or slugs to automatically apply to events
+      created by this recipe.
 
    -  Should be rendered with a ``checkbox`` form.
    -  Choose from:
@@ -303,6 +346,9 @@ accepts the following
    -  Defaults to ``[]``
 
 -  ``set_event_content_items``
+
+   -  A list of Content Item IDs and Titles to automatically apply to
+      events created by this Recipe.
 
    -  Should be rendered with a ``search`` form.
    -  Choose from:
