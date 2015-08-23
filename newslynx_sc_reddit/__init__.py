@@ -12,7 +12,7 @@ from newslynx.lib import dates
 from newslynx.lib import url
 from newslynx.sc import SousChef
 from newslynx.util import uniq
-from newslynx import settings
+from newslynx.core import settings
 
 
 class SCRedditEvent(SousChef):
