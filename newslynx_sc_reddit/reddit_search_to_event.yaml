@@ -30,7 +30,7 @@ options:
             - string
         required: true
         help:
-            placeholder: “url:cats"
+            placeholder: "url:cats"
             link: https://www.reddit.com/wiki/search
             description: The query to the Reddit API to return the initial batch of events.
 
@@ -43,7 +43,7 @@ options:
         required: false
         default: new
         help:
-            placeholder: “new"
+            placeholder: "new"
             link: https://www.reddit.com/wiki/search
             description: The sort order to return from the Reddit API.
 
